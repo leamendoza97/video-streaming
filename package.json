@@ -11,6 +11,14 @@
     "ecs:install-next": "npm install --save-dev decentraland-ecs@next"
   },
   "devDependencies": {
-    "decentraland-ecs": "latest"
-  }
+    "decentraland-ecs": "https://sdk-team-cdn.decentraland.org/@dcl/js-sdk-toolchain/branch/feat/add-video-event-observable/decentraland-ecs-6.6.7-1211254954.commit-07752ef.tgz"
+  },
+  "dependencies": {
+    "@dcl/ecs-scene-utils": "^1.7.3",
+    "@dcl/kernel": "^1.0.0-1209701311.commit-6cac2a5",
+    "@dcl/posix": "^1.0.1-20210906195401.commit-17a2da7"
+  },
+  "bundleDependencies": [
+    "@dcl/ecs-scene-utils"
+  ]
 }
